@@ -96,7 +96,7 @@ mkdir /usr/lib/dracut/modules.d/01test
 ```
 В нее поместим два скрипта:
 
-Который устанавливает модуль 01test:
+Который устанавливает модуль module-setup.sh:
 ```
 #!/bin/bash
 check() {
@@ -110,7 +110,7 @@ install() {
 }
 ```
 
-И Который вызывает скрипт модуля test.sh:
+И который вызывает скрипт модуля test.sh:
 ```
 #!/bin/bash
 exec 0<>/dev/console 1<>/dev/console 2<>/dev/console
