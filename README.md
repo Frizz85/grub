@@ -82,7 +82,7 @@ sed -i 's/VolGroup00/OtusRoot/g' /boot/grub2/grub.cfg
 mkinitrd -f -v /boot/initramfs-$(uname -r).img $(uname -r)
 ```
 
-Лог выполнеия выполнен командой scriptи находиться в файле grub.log
+Лог выполнеия выполнен командой script и находиться в файле grub.log
 
 ![files](img/5.JPG)
 
