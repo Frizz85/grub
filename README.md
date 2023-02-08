@@ -156,4 +156,5 @@ lsinitrd -m /boot/initramfs-$(uname -r).img | grep test
 Перегружаемся.
 
 При перезагрузке видим результат работы модуля:
+
 ![files](img/6.JPG)
