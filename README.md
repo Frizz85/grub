@@ -29,11 +29,6 @@ mount | grep root
 
 ![files](img/3.JPG)
 
-Меняем пароль root
-
-```
-passwd root
-```
 
 #### Способ 2. rd.break
 
